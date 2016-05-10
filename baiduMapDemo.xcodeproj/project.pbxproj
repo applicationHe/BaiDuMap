@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		1848F0DB1CE1AD660008375C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848F0DA1CE1AD660008375C /* main.m */; };
 		1848F0DE1CE1AD660008375C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848F0DD1CE1AD660008375C /* AppDelegate.m */; };
-		1848F0E11CE1AD660008375C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848F0E01CE1AD660008375C /* ViewController.m */; };
 		1848F0E41CE1AD660008375C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848F0E21CE1AD660008375C /* Main.storyboard */; };
 		1848F0E61CE1AD660008375C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848F0E51CE1AD660008375C /* Assets.xcassets */; };
 		1848F0E91CE1AD660008375C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848F0E71CE1AD660008375C /* LaunchScreen.storyboard */; };
 		1848F0F41CE1AD660008375C /* baiduMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848F0F31CE1AD660008375C /* baiduMapDemoTests.m */; };
 		1848F0FF1CE1AD670008375C /* baiduMapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848F0FE1CE1AD670008375C /* baiduMapDemoUITests.m */; };
+		1848F10E1CE1B19B0008375C /* nav_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1848F10D1CE1B19B0008375C /* nav_bg.png */; };
+		1848F1111CE1B1EC0008375C /* HMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848F1101CE1B1EC0008375C /* HMainViewController.m */; };
+		1848F1141CE1B2080008375C /* baseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1848F1131CE1B2080008375C /* baseNavigationController.m */; };
+		A35043BC702ED45A3E30378B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C299677E5B20B89988B329 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		1848F0DA1CE1AD660008375C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1848F0DC1CE1AD660008375C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1848F0DD1CE1AD660008375C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1848F0DF1CE1AD660008375C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1848F0E01CE1AD660008375C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1848F0E31CE1AD660008375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1848F0E51CE1AD660008375C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1848F0E81CE1AD660008375C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,15 @@
 		1848F0FA1CE1AD670008375C /* baiduMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baiduMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1848F0FE1CE1AD670008375C /* baiduMapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baiduMapDemoUITests.m; sourceTree = "<group>"; };
 		1848F1001CE1AD670008375C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1848F10D1CE1B19B0008375C /* nav_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_bg.png; sourceTree = "<group>"; };
+		1848F10F1CE1B1EC0008375C /* HMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMainViewController.h; sourceTree = "<group>"; };
+		1848F1101CE1B1EC0008375C /* HMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMainViewController.m; sourceTree = "<group>"; };
+		1848F1121CE1B2070008375C /* baseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseNavigationController.h; sourceTree = "<group>"; };
+		1848F1131CE1B2080008375C /* baseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseNavigationController.m; sourceTree = "<group>"; };
+		1848F1151CE1B4590008375C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		27C299677E5B20B89988B329 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72237F6662E39A929B4E102E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		83093C915F6B850133D4834E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35043BC702ED45A3E30378B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				1848F0F21CE1AD660008375C /* baiduMapDemoTests */,
 				1848F0FD1CE1AD670008375C /* baiduMapDemoUITests */,
 				1848F0D71CE1AD660008375C /* Products */,
+				5D222F24044BFA4578549C91 /* Pods */,
+				DF5B77BC4FE139381728D101 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +114,18 @@
 		1848F0D81CE1AD660008375C /* baiduMapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1848F10C1CE1B1880008375C /* Resoure */,
 				1848F0DC1CE1AD660008375C /* AppDelegate.h */,
 				1848F0DD1CE1AD660008375C /* AppDelegate.m */,
-				1848F0DF1CE1AD660008375C /* ViewController.h */,
-				1848F0E01CE1AD660008375C /* ViewController.m */,
+				1848F1121CE1B2070008375C /* baseNavigationController.h */,
+				1848F1131CE1B2080008375C /* baseNavigationController.m */,
+				1848F10F1CE1B1EC0008375C /* HMainViewController.h */,
+				1848F1101CE1B1EC0008375C /* HMainViewController.m */,
 				1848F0E21CE1AD660008375C /* Main.storyboard */,
 				1848F0E51CE1AD660008375C /* Assets.xcassets */,
 				1848F0E71CE1AD660008375C /* LaunchScreen.storyboard */,
 				1848F0EA1CE1AD660008375C /* Info.plist */,
+				1848F1151CE1B4590008375C /* PrefixHeader.pch */,
 				1848F0D91CE1AD660008375C /* Supporting Files */,
 			);
 			path = baiduMapDemo;
@@ -140,6 +157,31 @@
 			path = baiduMapDemoUITests;
 			sourceTree = "<group>";
 		};
+		1848F10C1CE1B1880008375C /* Resoure */ = {
+			isa = PBXGroup;
+			children = (
+				1848F10D1CE1B19B0008375C /* nav_bg.png */,
+			);
+			name = Resoure;
+			sourceTree = "<group>";
+		};
+		5D222F24044BFA4578549C91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83093C915F6B850133D4834E /* Pods.debug.xcconfig */,
+				72237F6662E39A929B4E102E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF5B77BC4FE139381728D101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27C299677E5B20B89988B329 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1848F1031CE1AD670008375C /* Build configuration list for PBXNativeTarget "baiduMapDemo" */;
 			buildPhases = (
+				A55FCEFD0308667802B58B91 /* Check Pods Manifest.lock */,
 				1848F0D21CE1AD660008375C /* Sources */,
 				1848F0D31CE1AD660008375C /* Frameworks */,
 				1848F0D41CE1AD660008375C /* Resources */,
+				22816C4066B1128B0906478C /* Embed Pods Frameworks */,
+				05D8BC1AE33AFDFC6B67E32B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +290,7 @@
 			files = (
 				1848F0E91CE1AD660008375C /* LaunchScreen.storyboard in Resources */,
 				1848F0E61CE1AD660008375C /* Assets.xcassets in Resources */,
+				1848F10E1CE1B19B0008375C /* nav_bg.png in Resources */,
 				1848F0E41CE1AD660008375C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,12 +311,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05D8BC1AE33AFDFC6B67E32B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22816C4066B1128B0906478C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55FCEFD0308667802B58B91 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1848F0D21CE1AD660008375C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1848F0E11CE1AD660008375C /* ViewController.m in Sources */,
+				1848F1141CE1B2080008375C /* baseNavigationController.m in Sources */,
+				1848F1111CE1B1EC0008375C /* HMainViewController.m in Sources */,
 				1848F0DE1CE1AD660008375C /* AppDelegate.m in Sources */,
 				1848F0DB1CE1AD660008375C /* main.m in Sources */,
 			);
@@ -409,9 +504,12 @@
 		};
 		1848F1041CE1AD670008375C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83093C915F6B850133D4834E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ./baiduMapDemo/prefixHeader.pch;
 				INFOPLIST_FILE = baiduMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yiyuangou.baiduMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,9 +518,12 @@
 		};
 		1848F1051CE1AD670008375C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72237F6662E39A929B4E102E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ./baiduMapDemo/prefixHeader.pch;
 				INFOPLIST_FILE = baiduMapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yiyuangou.baiduMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +597,7 @@
 				1848F1051CE1AD670008375C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1848F1061CE1AD670008375C /* Build configuration list for PBXNativeTarget "baiduMapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +606,7 @@
 				1848F1081CE1AD670008375C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1848F1091CE1AD670008375C /* Build configuration list for PBXNativeTarget "baiduMapDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +615,7 @@
 				1848F10B1CE1AD670008375C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

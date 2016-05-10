@@ -8,15 +8,39 @@
 
 #import "AppDelegate.h"
 
-@interface AppDelegate ()
+#import "HMainViewController.h"
+#import "baseNavigationController.h"
 
+#import <BaiduMapAPI_Base/BMKMapManager.h>
+
+@interface AppDelegate ()
+{
+    BMKMapManager * _manager;
+}
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    _window =[[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    
+    HMainViewController * mainVC =[[HMainViewController alloc] init];
+    baseNavigationController * baseNC = [[baseNavigationController alloc] initWithRootViewController:mainVC];
+    
+    _window.rootViewController = baseNC;
+    
+    _manager = [[BMKMapManager alloc] init];
+    BOOL ret = [_manager start:@"fsOgEvTTD6GmYar6pvPEVQT29g0MCycX" generalDelegate:nil];
+    if (ret) {
+        NSLog(@"百度地图可使用");
+    }else
+    {
+        NSLog(@"百度地图不可以使用");
+    }
     return YES;
 }
 
